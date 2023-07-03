@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GridMaster - CSS Grid Playground</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+
+    <div class="controls">
+      <div class="control-group">
+        <label for="grid-template-columns">Grid Template Columns:</label>
+        <input
+          type="text"
+          id="grid-template-columns"
+          placeholder="e.g. 1fr 2fr 1fr"
+        />
+      </div>
+
+      <div class="control-group">
+        <label for="grid-template-rows">Grid Template Rows:</label>
+        <input
+          type="text"
+          id="grid-template-rows"
+          placeholder="e.g. 100px auto 50px"
+        />
+      </div>
+
+      <div class="control-group">
+        <label for="justify-items">Justify Items:</label>
+        <select id="justify-items">
+          <option value="start">Start</option>
+          <option value="end">End</option>
+          <option value="center">Center</option>
+          <option value="stretch">Stretch</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="align-items">Align Items:</label>
+        <select id="align-items">
+          <option value="start">Start</option>
+          <option value="end">End</option>
+          <option value="center">Center</option>
+          <option value="stretch">Stretch</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
