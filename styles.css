@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    background-color: #ccc;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .control-group {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+  
